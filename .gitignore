@@ -6,3 +6,32 @@ data/dataset_raw/
 data/dataset_work/
 data/weights.pt
 __pycache__/
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment / logs
+.env
+.venv/
+venv/
+*.log
+
+# Large data / model files
+data/
+*.pt
+*.pth
+*.pkl
+*.npz
+*.npy
+
+# Images / generated outputs
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.avi
+*.json
+
+# OS files
+.DS_Store
